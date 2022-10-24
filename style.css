@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+img {
+  height: 350px;
+  width: 900px;
+}
+.image-slider {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btn {
+  padding: 3px;
+  font-size: 20px;
+  border-radius: 20%;
+  width: 110px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+#btn-next {
+  position: relative;
+  top: -190px;
+  left: 1135px;
+}
+#btn-previous {
+  position: relative;
+  top: -190px;
+  left: 0px;
+}
